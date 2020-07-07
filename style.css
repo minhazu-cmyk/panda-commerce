@@ -31,21 +31,35 @@ cursor: pointer;
 .cat1{
     background-color:blue;
     padding:10px 30px;
+    border-radius: 10px;
 }
 .cat2{
 background-color: coral;
 padding:10px 30px;
-
+border-radius: 10px;
 }
 .cat3{
     background-color: darkolivegreen;
     padding:10px 30px;
-
-}
-.categories h1{color: white;
-
-
-}
-.container-categories img{width: 100px;
-border-radius: 10px;}
+    border-radius: 10px;
     
+}
+.categories h1{color: white;}
+
+.categories img{width: 100px;
+border-radius: 10px;}
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgrey;
+    border-radius: 10px;
+}
+    .card-footer{
+        background-color: white;
+        border-top: none;
+    }
+    #subscribe{
+        height: 300px;
+    }
+    .finish{
+        text-align: center;
+    }
